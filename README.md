@@ -1,9 +1,9 @@
 # CTP_RISK_Python
-CTP风控 python接口使用Swig技术开发，可以自己按以下步骤编译，需要安装swig等组件。
+CTP风控 python接口使用Swig技术开发，可以自己按以下步骤编译，需要安装swig等组件。swig转换文件参考[openctp](https://github.com/openctp/openctp-ctp-python)项目。
 ## Windows下封装步骤
-准备
-安装VisualStudio 2022、Swig、Python3、boost、cmake，boost库用到的是locale库，用来转换字符集。
-boost库安装教程 ：https://blog.csdn.net/nanke_yh/article/details/124346308
+准备VisualStudio 2022、Swig、Python3、boost、cmake，boost库用到的是locale库，用来转换字符集。
+
+[boost库安装教程](https://blog.csdn.net/nanke_yh/article/details/124346308)
 
 #### 1、新建riskuserapi.i文件，并将FtdcRiskUserApi.h、FtdcRiskUserApiDataType.h、FtdcRiskUserApiStruct.h和riskuserapi.i放到同一文件夹下
 
